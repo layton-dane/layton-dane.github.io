@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Demo</title>
+    <script src="javascript/json.js"></script>
+    <link rel="stylesheet" href="stylesheets/json.css">
+  </head>
+  <body>
+    <h1>JSON Demo</h1>
+    <ul>
+      <li>JSON stands for <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation</li>
+      <li>JSON is an alternative to XML</li>
+      <li>JSON is structured as follows:</li>
+      <ul>
+        <li><pre id="jsonDemo">
+{
+    "JSONKey"	:	"Value for the Key"
+}
+        </pre></li>
+      </ul>
+    </ul>
+    <button class="btn-default" onclick="testParseJSON()">Parse JSON</button>
+    <div>
+      <p id="parseDemo"></p>
+    </div>
+    <button id="stringifyBtn" class="btn-default" onclick="testStringify()" disabled>Stringify </button>
+    <div>
+      <p id="stringifyDemo"></p>
+    </div>
+  </body>
+</html>
