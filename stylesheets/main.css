@@ -1,12 +1,35 @@
 body {
   font-family: sans-serif;
-  background-color: powderblue; 
 }
 
 h1 {
   color: red;
 }
 
-h2 {
-  color: blue; 
+h5 {
+  color: red;
+}
+
+.first {
+  width: 200px;
+}
+
+.middle {
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+
+tr, td {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #999999;
 }
