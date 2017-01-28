@@ -1,0 +1,125 @@
+@-webkit-keyframes colorchange {
+  0%  {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100%{background-color: red;}
+}
+
+@-moz-keyframes colorchange {
+  0%  {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100%{background-color: red;}
+}
+
+@-ms-keyframes colorchange {
+  0%  {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100%{background-color: red;}
+}
+
+@-o-keyframes colorchange {
+  0%  {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100%{background-color: red;}
+}
+
+@keyframes colorchange {
+  0%  {background-color: red;}
+  25% {background-color: yellow;}
+  50% {background-color: blue;}
+  75% {background-color: green;}
+  100%{background-color: red;}
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+@-webkit-keyframes positionchange {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 0px;}
+  50% {left: 100px; top: 100px;}
+  75% {left: 0px; top: 100px;}
+  100% {left: 0px; top: 0px;}
+}
+
+@-moz-keyframes positionchange {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 0px;}
+  50% {left: 100px; top: 100px;}
+  75% {left: 0px; top: 100px;}
+  100% {left: 0px; top: 0px;}
+}
+
+@-ms-keyframes positionchange {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 0px;}
+  50% {left: 100px; top: 100px;}
+  75% {left: 0px; top: 100px;}
+  100% {left: 0px; top: 0px;}
+}
+
+@-o-keyframes positionchange {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 0px;}
+  50% {left: 100px; top: 100px;}
+  75% {left: 0px; top: 100px;}
+  100% {left: 0px; top: 0px;}
+}
+
+@keyframes positionchange {
+  0% {left: 0px; top: 0px;}
+  25% {left: 100px; top: 0px;}
+  50% {left: 100px; top: 100px;}
+  75% {left: 0px; top: 100px;}
+  100% {left: 0px; top: 0px;}
+}
+
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  left: 0px;
+}
+
+@-webkit-keyframes rotationchange {
+  100% { transform: rotate(90deg); }
+}
+
+@-moz-keyframes rotationchange {
+  100% { transform: rotate(90deg); }
+}
+
+@-ms-keyframes rotationchange {
+  100% { transform: rotate(90deg); }
+}
+
+@-o-keyframes rotationchange {
+  100% { transform: rotate(90deg); }
+}
+
+@keyframes rotationchange {
+  100% { transform: rotate(90deg); }
+}
+
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 0px;
+}
+
+body {
+  font-family: sans-serif;
+}
