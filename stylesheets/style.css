@@ -1,0 +1,11 @@
+.a-general {
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background-color: #dfdfdf;
+  color: black;
+}
+
+.a-general:hover {
+  background-color: #afafaf;
+}
